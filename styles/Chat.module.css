@@ -1,0 +1,27 @@
+.chat_container {
+  padding: 0;
+}
+.message {
+  line-height: 22.5px;
+  margin: 0;
+  display: grid;
+  gap: 0.25rem;
+  grid-template-columns: 85px 1fr;
+  color: #eeeeee;
+  font-size: 18px;
+}
+
+.message strong {
+  overflow: hidden;
+  text-align: right;
+  text-overflow: ellipsis;
+  color: rgb(0, 179, 77);
+}
+
+.message img {
+  display: inline-block;
+  line-height: 1;
+  width: 24px;
+  margin: -6px 0 -4px;
+  vertical-align: middle;
+}
